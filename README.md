@@ -5,4 +5,5 @@ Diese Liste enthält alle MdBs (sofern die [Wikipedia-Liste](<https://de.wikiped
 Aufgrund dieser automatischen Methode kann es sein, dass die E-Mail-Adressen z.T. fehlerhaft sind, in meinen Stichproben konnte ich aber keinen der Fälle finden.
 
 ## Liste selbst erstellen
+
 Über das beiliegende Skript `generate.sh` kann die Liste selbst erstellt werden. Dazu wird NodeJS benötigt (getestet mit Version 14.4).
