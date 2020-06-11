@@ -13,7 +13,7 @@ fetch(sourceURL)
         const tableToParse = tables[3];
         const rows = tableToParse.querySelectorAll("tr")
 
-        console.log("Name,Geburtsjahr,Partei,Land,Wahlkreis,Erststimmen,Bemerkungen,E-Mail")
+        console.log("Name,Geburtsjahr,Partei,Land,Wahlkreis,E-Mail")
         for (const row of rows) {
             let line = "";
 
@@ -21,7 +21,7 @@ fetch(sourceURL)
             let name = "";
 
             // Skip first cell (image)
-            for (let i = 1; i < cells.length; i++) {
+            for (let i = 1; i < cells.length - 2; i++) {
                 const cell = cells[i];
 
                 const text = cell.text.trim();
