@@ -40,6 +40,7 @@ fetch(sourceURL)
                 .replace(/ü/g, "ue")
                 .replace(/é/g, "e")
                 .replace(/ğ/g, "g")
+                .replace(/ß/g, "ss")
                 .replace(/ /g, "") // Replace all other spaces with empty string
 
             line += "\"" + prefix + "@bundestag.de" + "\""
