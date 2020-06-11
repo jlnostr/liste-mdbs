@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.2.19"
+  }
+}
